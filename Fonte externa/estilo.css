@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.titulo{
+    color: brown;
+    font-size: 50px;
+    font-family: 'Yellowtail', cursive;
+}
+
+p{
+    color: red;
+    font-size: 30px;
+    text-shadow: 5px 0px 5px black;
+    font-family: 'Yellowtail', cursive;
+}

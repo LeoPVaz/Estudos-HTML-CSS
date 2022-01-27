@@ -1,0 +1,26 @@
+:root{
+    --bg-color:#000;
+    --bg-secundario:#555;
+    --fonte-color:#fff;
+    --fonte-size:35px;
+}
+body{
+    margin:0;
+    background-color: var(--bg-color);
+    font-size: var(--fonte-size);
+}
+h1{
+    background-color: var(--bg-secundario);
+    color: var(--fonte-color);
+}
+.conteiner{
+    color: var(--fonte-color);
+    background-color: var(--bg-secundario);
+    
+}
+@media(max-width:450px){
+    :root{
+        --fonte-size:15px;
+        --bg-color:red;
+    }
+}

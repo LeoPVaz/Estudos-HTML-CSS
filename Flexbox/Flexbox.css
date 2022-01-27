@@ -1,0 +1,21 @@
+.caixa{
+    background-color: violet;
+    height:500px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.caixa div{
+    flex:1;
+    width:200px;
+    margin:15px;
+    padding:13px;
+    font-size:20px;
+    color:white;
+    background-color:crimson;
+    
+
+}

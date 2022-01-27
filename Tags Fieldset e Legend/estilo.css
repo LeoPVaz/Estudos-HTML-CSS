@@ -1,0 +1,56 @@
+body {
+    background: rgb(255, 0, 0);
+    font: 15pt normal arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+}
+fieldset{
+    background-color:#fff000;
+    margin-bottom:20px;
+    border: red solid;
+    border-radius: 5px;
+}
+legend{
+    background-color: red;
+    padding:10px;
+    border-radius:5px;
+
+}
+input#nome{
+    margin-left:20px;
+}
+input#sobrenome{
+    margin-left:52px;
+}
+textarea{
+    width:300px;
+    height:200px;
+    resize: none;
+}
+button{
+    padding:15px;
+    background-color: #fff000;
+    color: red;
+    border: red solid;
+    border-radius:5px;
+}
+button:hover{
+    background-color: red;
+    color: #fff000;
+    border: #fff000 solid;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

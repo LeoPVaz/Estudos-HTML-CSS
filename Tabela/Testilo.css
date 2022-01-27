@@ -1,0 +1,28 @@
+body{
+    margin: 50px;
+    font-size: 17px;
+    
+}
+h1{
+    font-size:50px;
+}
+table{
+    width: 600px;
+}
+th,td{
+
+    padding: 30px;
+}
+table thead{
+    background-color: silver;
+    text-align: left;
+}
+tbody td{
+    border-bottom: 1px solid #eee;
+}
+tbody tr:nth-child(even){
+    background-color: cyan;
+}
+tbody tr:hover{
+    background-color: chartreuse;
+}

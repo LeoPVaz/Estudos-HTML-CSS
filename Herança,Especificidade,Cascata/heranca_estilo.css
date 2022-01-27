@@ -1,0 +1,11 @@
+body{
+    margin:0px;
+}
+div{
+    color: blueviolet;
+    border: 10px solid red;
+}
+/*
+Esse e um exemplo de herança o texto que esata no HTLM vai receber a cor como herança que esta na div.
+Não recebera a borda porque o texto não herda a borada 
+*/
