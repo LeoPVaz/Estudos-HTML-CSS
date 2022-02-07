@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    justify-content:center;
+    
+}
+.box{
+    background-color:rgb(150, 4, 4);
+    width:500px;
+    height:500px;
+    color:white;
+    padding:10px;
+    margin-top:30px;
+    border-radius:10px;
+    
+
+} 
+header{
+    text-align: center;
+}
+.formulario{
+    margin-left:100px ;
+}
+label, input{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+a{
+    color:red;
+}
+textarea{
+    margin-top:10px;
+    height:200px;
+    width:300px;
+    resize:none;
+}
+button{
+    padding:10px;
+    border-radius:10px;
+}
+button:hover{
+    color: red;
+}
