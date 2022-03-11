@@ -1,0 +1,19 @@
+/* o seletor pelo atributo pode ser tanto so como acompanhado de uma tag  */
+div[translate]{
+    background-color: blue;
+    margin-bottom:20px;
+}
+/* Em casos que o atributo tem mais de um tipo como o type e preciso especificar qual para direcionar a seleção */
+input[type=text]{
+    background-color:red;
+}
+/* Quando for selecionar parte de um link e preciso botar * na frente do = */
+a[href*="dolar"]{
+    background-color: gold;
+}
+a[href*="ucrania"]{
+    background-color:green;
+}
+a[href^="https:"]:hover{
+    color:red;
+}

@@ -1,0 +1,9 @@
+div{
+    margin:30px;
+
+}
+/* :empty serve para selecionar um elemento vazio */
+div:empty{
+    height:50px;
+    background-color:red;
+}
