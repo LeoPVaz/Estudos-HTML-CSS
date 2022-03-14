@@ -1,0 +1,11 @@
+/* :: e usado para selecionar um elemento dentro da teg ::first-letter usado para alterar a primera letra. */
+
+p::first-letter{
+    font-size:30px;
+    color:red;
+    font-weight:bold;
+}
+p::first-line{
+    background-color:black;
+    color: white;
+}
