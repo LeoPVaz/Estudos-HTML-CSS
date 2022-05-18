@@ -1,0 +1,26 @@
+.faixa{
+    background-color:crimson;
+    text-align: center;
+    width:300px;
+    height:80px;
+    display:flex;
+    position:fixed;
+    align-items:center;
+    justify-content: center;
+    transform: rotate(-40deg);
+    left:-65px;
+    top:23px;
+    box-shadow:2px 2px 2px black;
+    box-sizing: content-box;
+}
+a{
+    text-decoration: none;
+    font-size:20px;
+    color: wheat;
+    border:1px solid wheat;
+    text-shadow:2px 3px 2px black ;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:15px;
+    padding-bottom:15px;
+}

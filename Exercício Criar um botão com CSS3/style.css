@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+    box-sizing:content-box; 
+}
+
+.botao{
+    background-image: linear-gradient( to right, red, rgb(158, 9, 9) );
+    text-decoration:none;
+    color:#fff;
+    font-size:30px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    display:inline-block;
+    margin-top:20px;
+    border-radius:20px;
+    
+}
+.botao:hover{
+    background-image:linear-gradient(to left,red,rgb(130,9,9));
+}

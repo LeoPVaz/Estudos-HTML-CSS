@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+.balao{
+    background-color:red;
+    color:white;
+    display:inline-block;
+    padding:20px;
+    border-radius:30px;
+}
+.balao::after{
+    content:" ";
+    margin-top:18px;
+    display:block;
+    position:absolute;
+
+    border:20px solid;
+    border-color:#ff0000 transparent transparent transparent;
+}
