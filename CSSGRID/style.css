@@ -1,0 +1,71 @@
+.conteiner {
+    display: grid;
+    /* FORMA DESATUALIZADA DO GAP */
+
+    /* grid-column-gap: 10px; esta obissoleta, porem e bom usar, 
+    porque aguns navegadores não reconhecem a novavercão */
+
+    /* grid-row-gap: 10px; esta obissoleta, porem e bom usar, 
+    porque aguns navegadores não reconhecem a novavercão  */
+
+    /* grid-gap: 10px 30px; esta obissoleta, porem e bom usar, 
+    porque aguns navegadores não reconhecem a novavercão   */
+
+    /*  FORMA ATUALIZADA DO GAP */
+
+    /* row-gap: 10px; FORMA ATUALIZADA DO GAP */
+
+    /* column-gap: 10px; FORMA ATUALIZADA DO GAP*/
+    gap: 10px;
+    grid-template-areas:
+
+        "header header header header"
+        "menu content content content"
+        "ad content content content"
+        "footer footer footer footer"
+
+    ;
+
+}
+
+.item {
+    background-color: brown;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-align:center ;
+
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: menu;
+}
+
+section {
+    grid-area: content;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.ad {
+    grid-area: ad;
+}
+
+@media (max-width: 750px) {
+    .conteiner {
+        grid-template-areas:
+            "header header header menu"
+            "content content content content"
+            "footer footer footer ad"
+
+
+        ;
+    }
+}
