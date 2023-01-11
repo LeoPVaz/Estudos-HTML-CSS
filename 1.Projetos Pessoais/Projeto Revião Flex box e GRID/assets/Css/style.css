@@ -162,7 +162,27 @@ h4 {
     width: 85%;
 }
 
+.conteiner_grid {
+    text-align: center;
+}
 
+.box_grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+justify-items: center;
+align-items: center;
+margin-bottom: 20px;
+}
+
+
+.box_grid img {
+    width: 340px;
+}
+
+.lorem{
+    margin-bottom: 20px;
+}
 /* main end */
 
 /* footer */
